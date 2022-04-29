@@ -88,10 +88,10 @@ body {
   display: flex;
 }
 #bodyContainer #skills {
+  width: 35%;
+  margin-left: 20px;
   padding: 20px;
   margin-bottom: 20px;
-  width: 250px;
-  min-height: 300px;
   border-radius: 20px;
   box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -107,6 +107,7 @@ body {
 }
 #bodyContainer #skills #stack #summ {
   padding: 0 15px;
+  margin-right: 7px;
   font-size: 14pt;
   color: #fff;
   background-color: #A8A9AD;
@@ -126,6 +127,10 @@ body {
   background-color: #2F73FF;
   border-radius: 25px;
 }
+#bodyContainer #info {
+  width: 60%;
+  margin-right: 20px;
+}
 #bodyContainer #info #about, #bodyContainer #info #exp {
   padding: 20px 30px;
   margin: 0 0 20px 20px;
@@ -138,6 +143,9 @@ body {
   padding-left: 15px;
 }
 
+#blog {
+  width: 100%;
+}
 #blog ul {
   list-style-type: none;
   padding-left: 0;
@@ -276,10 +284,6 @@ body {
     width: 90% !important;
   }
 
-  #theme {
-    display: none;
-  }
-
   #bodyContainer {
     flex-direction: column;
   }
@@ -293,3 +297,5 @@ body {
     width: 90% !important;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
